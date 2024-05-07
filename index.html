@@ -1,0 +1,411 @@
+<!-- DEVLOG:
+
+KNOWN ISSUES:
+
+-home icon for projects page is off-center
+-I want a row of 3 projects horizontally not vertically
+-The bottom email copy button does not work
+-the work experience needs reworked into a timeline
+-achievements needs reworked
+-all projects page needs to look prettier
+
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dylan Earl Portfolio </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+    <div class="full-container">
+
+
+
+        <div class="header-container">
+            <div class="left-content">
+                <br><br>
+                <h1 style="color:white; text-decoration: none;"><a href="index.html">Dylan Earl</a></h1>
+                <p style="color:white;">Student at The Ohio State University</p>
+                <div class="header-icons">
+                    <a href="https://linkedin.com"><img src="images/linkedinLogo.png" height="35"></a>
+                    <a href="https://github.com"><img src="images/githubLogo.png" height="35"></a>
+                    <a href="https://drive.google.com"><img src="images/resumeLogo.png" height="35"></a>
+
+                    <img id="mailIcon" src="images/emailLogo.png" height="35" alt="Copy Email Icon">
+                    <script src="email.js"></script>
+
+<br><br>
+
+
+                </div>
+            </div>
+            <div class="right-content">
+                <img src="images/osuLogo.png" height="100px">
+            </div>
+        </div>
+
+
+
+
+        <div class="projects-container">
+
+            <h1><b>Projects Showcase</b></h1>
+
+            <div class="project-items-container">
+
+                <a href="https://github.com/earl105/nnCalc" class="project-link">
+                    <div class="nnCalc">
+                        <div class="text-content">
+                            <h2> <b>Natural Number Calculator</b></h2>
+
+                            <p>
+                                Made with:
+                                <img src="images/javaLogo.png" alt="Java Logo" width="1"
+                                    class="project-icons" /><br><br>
+
+
+                                The Natural Number Calculator project aims to develop a Java application using the Swing
+                                framework and the model-view-controller (MVC) design pattern.
+                                This application, unlike typical calculators, performs arithmetic operations with
+                                natural
+                                numbers that have an extremely large upper limit, and cannot be negative.
+                                The project begins by importing a predefined project setup into Eclipse and requires
+                                modifications to the model, view, and controller components based on provided interfaces
+                                and
+                                documentation.
+                                Although potential issues like slow performance and stack overflow are noted, the
+                                calculator
+                                is designed to be robust against user-induced crashes.
+                            </p>
+                        </div>
+                        <div class="image-content">
+                            <img src="images/nnCalc.png" alt="Natural Number Calculator Project Image" width="400" />
+                        </div>
+                    </div>
+                </a>
+                <br>
+
+                <a href="https://github.com" class="project-link">
+                    <div class="uoDesign">
+                        <div class="text-content">
+                            <h2><b>User-Oriented Design </b></h2>
+                            <p>
+                                Made with:
+                                <img src="images/onshapeLogo.png" alt="Onshape Logo" width="1" class="project-icons" />
+                                <img src="images/arduinoLogo.png" alt="Arduino Logo" width="1"
+                                    class="project-icons" /><br><br>
+
+                                User-Oriented Design Description
+                            </p>
+                        </div>
+                        <div class="image-content">
+                            <img src="images/uoDesign2.png" alt="User-Oriented Design Project Image" width="350" />
+                        </div>
+                    </div>
+                </a>
+
+                <br>
+
+                <a href="https://github.com/earl105/freshman-projects/blob/main/Glossary.java" class="project-link">
+                    <div class="glossaryGenerator">
+                        <div class="text-content">
+                            <h2><b>Glossary Generator</b></h2>
+                            <p> Made with:
+                                <img src="images/javaLogo.png" alt="Java Logo" width=100
+                                    class="project-icons" /><br><br>
+                                I've generated a batch of HTML files from an input file containing terms and their
+                                definitions.
+                                The main deliverable is a set of interconnected HTML pages: a top-level index page
+                                listing
+                                all glossary terms in alphabetical order and individual pages for each term with its
+                                definition.
+                                Terms in definitions linked to other glossary pages are clickable. The index is named
+                                "index.html," and each term page is formatted as "term.html." I specified the input file
+                                and
+                                output folder paths.
+                                The project emphasized software quality factors such as understandability,
+                                maintainability,
+                                and adherence to coding standards, challenging me to deliver a realistic,
+                                component-based
+                                software product without predefined templates or frameworks.
+                            </p>
+                        </div>
+                        <div class="image-content">
+                            <img src="images/glossaryGenerator.png" alt="Glossary Generator Project Image"
+                                width="300" />
+                        </div>
+                    </div>
+                </a>
+
+
+               
+            </div>
+
+            <div class="all-projects-container">
+
+                <a href="projects.html">
+                    <h2>All of my projects</h2>
+                </a>
+            </div>
+        </div>
+
+        <div class="skills-container">
+            <p>
+            <h1>Skills</h1>
+
+
+            <table>
+                <tr>
+                    <div class="skills-icons">
+                        <th> <img src="images/javaLogo.png" alt="Java Logo" title="Skill level: Beginner-Intermediate"
+                                width="40" class="skills-icon" /></th>
+                        <th> <img src="images/cssLogo.png" alt="CSS Logo" title="Skill level: Absolute Beginner"
+                                width="40" class="skills-icon" /></th>
+                        <th><img src="images/htmlLogo.png" alt="HTML Logo" title="Skill level: Beginner-Intermediate"
+                                width="40" class="skills-icon" /></th>
+                        <th><img src="images/matlabLogo.png" alt="MATLAB Logo" title="Skill level: Beginner" width="40"
+                                class="skills-icon" /></th>
+                        <th> <img src="images/inventorLogo.png" alt="Autodesk Inventor Logo"
+                                title="Skill level: Beginner-Intermediate" width="40" class="skills-icon" /></th>
+                        <th><img src="images/onshapeLogo.png" alt="Onshape Logo"
+                                title="Skill level: Beginner-Intermediate" width="40" class="skills-icon" /></th>
+                        <th> <img src="images/arduinoLogo.png" alt="Arduino Logo" title="Skill level: Absolute Beginner"
+                                width="40" class="skills-icon" /></th>
+                        <th> <img src="images/excelLogo.png" alt="Excel Logo" title="Skill level: Beginner"
+                                width="40" class="skills-icon" /></th>
+                    </div>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>CSS</td>
+                    <td>HTML</td>
+                    <td>MATLAB</td>
+                    <td>Inventor</td>
+                    <td>Onshape</td>
+                    <td>Arduino IDE</td>
+                    <td>Excel</td>
+                </tr>
+                <!-- <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+                <td>Row 2, Cell 4</td>
+                <td>Row 2, Cell 5</td>
+                <td>Row 2, Cell 6</td>
+                <td>Row 2, Cell 7</td>
+            </tr> -->
+            </table>
+
+
+
+
+            <!-- <div class="skills-icons">
+        <img src ="images/javaLogo.png" alt="Java Logo" title="Skill level: Beginner-Intermediate" width="40" class="skills-icon"/>
+        <img src ="images/cssLogo.png" alt="CSS Logo" title="Skill level: Absolute Beginner" width="40"class="skills-icon"/>
+        <img src ="images/htmlLogo.png" alt="HTML Logo" title="Skill level: Beginner-Intermediate" width="40"class="skills-icon"/>
+        <img src ="images/matlabLogo.png" alt="MATLAB Logo" title="Skill level: Beginner" width="40"class="skills-icon"/>
+        <img src ="images/inventorLogo.png" alt="Autodesk Inventor Logo" title="Skill level: Beginner-Intermediate" width="40"class="skills-icon"/>
+        <img src ="images/onshapeLogo.png" alt="Onshape Logo" title="Skill level: Beginner-Intermediate" width="40"class="skills-icon"/>
+        <img src ="images/arduinoLogo.png" alt="Arduino Logo" title="Skill level: Absolute Beginner" width="40"class="skills-icon"/>
+        <br>
+        Java, CSS, HTML, MATLAB, Inventor, Onshape, Arduino IDE
+    </div> -->
+            </p>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <div class="jobs-container">
+        <h1>Experience</h1>
+
+
+
+
+        <div class="timeline">
+            <div class="timeline__component">
+              <div class="timeline__date timeline__date--right">August 2021</div>
+            </div>
+            <div class="timeline__middle">
+              <div class="timeline__point"></div>
+            </div>
+            <div class="timeline__component timeline__component--bg">
+              <h2 class="timeline__title">Dicks Spoting Goods</h2>
+              <p class="timeline__paragraph">
+                 <ul>
+                    <li>Apparel Sales</li>
+                    <li>Footwear Sales</li>
+                    <li>SFS/BOPIS</li>
+                    <li>Register</li>
+                    <li>Customer Service</li>
+                </ul>
+              </p>
+            </div>
+            <div class="timeline__component timeline__component--bg">
+              <h2 class="timeline__title">Graduation</h2>
+              <p class="timeline__paragraph">
+               Graduated High School with an Honors Diploma and summa cum laude. 
+              </p>
+             
+            </div>
+            <div class="timeline__middle">
+              <div class="timeline__point"></div>
+            </div>
+            <div class="timeline__component">
+              <div class="timeline__date">August 2021-2023</div>
+            </div>
+            <div class="timeline__component">
+                <div class="timeline__date">May 2023</div>
+              </div>
+            <div class="timeline__middle">
+              <div class="timeline__point"></div>
+            </div>
+            <div class="timeline__component timeline__component--bg">
+              <h2 class="timeline__title">The Ohio State University</h2>
+              <p class="timeline__paragraph">
+               Started Higher Education at The Ohio State University College of Engineering
+              </p>
+            </div>
+            <div class="timeline__component timeline__component--bottom timeline__component--bg">
+              <h2 class="timeline__title">Eagle Scout</h2>
+              <p class="timeline__paragraph">
+               Acheived the Eagle Scout Award with Palms
+              </p>
+             
+            </div>
+            <div class="timeline__middle">
+              <div class="timeline__point"></div>
+              <div class="timeline__point timeline__point--bottom"></div>
+            </div>
+            <div class="timeline__component timeline__component--bottom">
+              <div class="timeline__date">August 2023-Current</div>
+            </div>
+            <div class="timeline__component">
+                <div class="timeline__date"><br>December 2023</div>
+              </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+        <div class="dicksSporting">
+
+            <div class="text-content">
+                <h2><b>Dicks Sporting Goods </b></h2>
+                <p>Dicks Sporting Goods Description
+                <ul>
+                    <li>Apparel Sales</li>
+                    <li>Footwear Sales</li>
+                    <li>SFS/BOPIS</li>
+                    <li>Register</li>
+                    <li>Customer Service</li>
+                </ul>
+
+                </p>
+
+            </div>
+            <div class="image-content">
+                <img src="images/dicksSporting.png" alt="DSG Logo" width="250" />
+            </div>
+
+        </div> -->
+
+
+
+    </div>
+
+
+    <div class="achievements-container">
+        <h1> Achievements</h1>
+
+        <div class="scouts">
+
+            <div class="text-content">
+                <h2><b>Eagle Scout </b></h2>
+                <p>The Eagle Scout Award, the highest rank within the Boy Scouts of America, is a prestigious
+                    achievement that symbolizes a Scout's dedication, leadership, and commitment to community service.
+                    Attaining this rank involves completing a rigorous set of requirements, including earning at least
+                    21 merit badges that cover a broad range of skills and knowledge, demonstrating leadership through
+                    holding various troop positions, and successfully planning and executing a community service
+                    project.
+                    The significance of the Eagle Scout Award extends beyond scouting; it is widely recognized as a mark
+                    of exceptional personal achievement and character.
+                    Eagle Scouts are often looked up to as individuals who have demonstrated perseverance, ethical
+                    integrity, and a strong sense of civic duty, qualities that make them stand out in their educational
+                    pursuits, careers, and community engagements.
+                    This recognition is not only a point of pride for the individuals who earn it but also a signal to
+                    colleges, employers, and others that an Eagle Scout is someone who brings valuable skills and a
+                    proven track record of success and leadership.</p>
+
+            </div>
+            <div class="image-content">
+                <img src="images/eagleScout.jpg" alt="Eagle Scout Logo" width="250" />
+            </div>
+
+        </div>
+
+
+        <div class="engineering-showcase">
+
+            <div class="text-content">
+                <h2><b>Engineering Showcase </b></h2>
+                <p>Showcase Description</p>
+
+            </div>
+            <div class="image-content">
+                <img src="images/engineeringShowcase.jpg" alt="Engineering Showcase Photo" width="250" />
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="footer-container">
+        <p>
+        <div class="footer-icons">
+            <a href="https://linkedin.com"><img src="images/linkedinLogo.png" height="25"></a>
+            <a href="https://github.com"> <img src="images/githubLogo.png" height="25"></a>
+            <a href="https://drive.google.com"> <img src="images/resumeLogo.png" height="25"></a>
+           
+<br>Contact: earl.105@osu.edu
+
+            <br>
+            </p>
+        </div>
+
+
+    </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,276 @@
+.skills-container,.jobs-container,.achievements-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Aligns buttons to the start, you can use center to align them centrally */
+   text-align: center;
+    padding: 40px 0;     
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light grey border */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color:white;
+    border-radius:5px;
+}
+
+
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Aligns buttons to the start, you can use center to align them centrally */
+   text-align: center;
+    padding: 40px 0;     
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light grey border */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color:white;
+    border-radius:5px;
+}
+
+
+.project-link {
+    text-decoration: none;  /* Removes underline from links */
+    color: inherit;  /* Ensures text colors are inherited and not automatically blue */
+    display: block;  /* Ensures the link is a block element */
+    margin: 0 auto;  /* Centralizes the link, adjust as necessary */
+    padding: 0;  /* Removes padding */
+    width: 100%;  /* Ensures it occupies the full available width */
+    transition: transform 0.2s ease; /* Smooth transition for transform and background color */
+}
+.project-link:hover,.dicksSporting:hover, .scouts:hover  {
+    transform: scale(1.03); /* Slightly larger */
+}
+
+.skills-icon:hover{
+    transform: scale(1.1);
+}
+
+.project-icons:hover{
+    transform: scale(1.1);
+}
+
+.freshman-dropdown:hover,.sophomore-dropdown:hover,.junior-dropdown:hover,.senior-dropdown:hover{
+
+    background-color: #f0f0f0; /* Slightly gray background on hover */
+    transform: scale(1.01); /* Slightly larger */
+}
+
+.nnCalc:hover, .uoDesign:hover, .glossaryGenerator:hover, .all-projects-container:hover, .back-container:hover {
+    background-color: #f0f0f0; /* Slightly gray background on hover */
+    transform: scale(1.03); /* Slightly larger */
+   
+}
+.header-container{
+background-color: #97b6df;
+background-image: url("../images/background.png"); 
+background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+background-position: center; /* Centers the background image */
+background-size: cover; /* Cover the entire area of the container */
+margin-bottom: 20px;
+padding: 10px;
+border: 1px solid #ccc; /* Light grey border */
+box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+border-radius:5px;
+display: flex; /* Enables flexbox layout */
+align-items: center; /* Vertically centers all children in the container */
+justify-content: space-between; /* Distributes children (left and right contents) across the main axis */
+
+
+
+}
+.header-container h1 a:visited {
+    color: white;        /* Keeps the link white even after being visited */
+    text-decoration: none;
+}
+
+.header-container h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-container{
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light grey border */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+background-color:#bbbbbb;
+}
+
+.full-container{
+
+    font-family:'Oxygen';
+    background-color:rgb(235, 235, 235);
+}
+
+.header-content, .header-icons {
+    margin-top: 10px; /* Adds some space between the subtitle and the icons */
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column; /* Stacks children vertically */
+    align-items: flex-start; /* Aligns children to the start (left) */
+}
+.right-content {
+    display: flex;
+    align-items: center; /* Centers the OSU logo vertically within its container */
+    justify-content: center; /* Centers the OSU logo horizontally within its container */
+}
+
+
+.footer-icons{
+    font-size: 20px;
+}
+
+.dicksSporting,.scouts, .engineering-showcase{
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Distribute space between text and image */
+    width: 80%; /* Adjust the width as needed */
+    margin: 20px auto; /* Center horizontally and add space around */
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    background-color: white; /* Optional: for better visibility */
+    border-radius:10px;
+    background-color: 0.2s ease;
+    transition: transform 0.2s ease; /* Smooth transition for transform and background color */
+}
+
+.nnCalc, .uoDesign, .glossaryGenerator {
+    flex:1;
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Distribute space between text and image */
+    width: 90%; /* Adjust the width as needed */
+    margin: 20px auto; /* Center horizontally and add space around */
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    background-color: white; /* Optional: for better visibility */
+    border-radius:10px;
+    background-color: 0.2s ease;
+    transition: transform 0.2s ease; /* Smooth transition for transform and background color */
+}
+
+.all-projects-container{
+   
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Distribute space between text and image */
+    width: 20%; /* Adjust the width as needed */
+    margin: 20px auto; /* Center horizontally and add space around */
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    background-color: white; /* Optional: for better visibility */
+    border-radius:10px;
+    background-color: 0.2s ease;
+    transition: transform 0.2s ease; /* Smooth transition for transform and background color */
+}
+
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.back-container{
+   
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Distribute space between text and image */
+    width: 5%; /* Adjust the width as needed */
+    margin: 20px auto; /* Center horizontally and add space around */
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    background-color: white; /* Optional: for better visibility */
+    border-radius:10px;
+    background-color: 0.2s ease;
+    transition: transform 0.2s ease; /* Smooth transition for transform and background color */
+}
+
+
+.freshman-dropdown,.sophomore-dropdown,.junior-dropdown,.senior-dropdown{
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Distribute space between text and image */
+    width: 80%; /* Adjust the width as needed */
+    margin: 10px auto; /* Center horizontally and add space around */
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    background-color: white; /* Optional: for better visibility */
+    border-radius:10px;
+    background-color: 0.2s ease;
+    transition: transform 0.2s ease; /* Smooth transition for transform and background color */
+}
+
+.text-content {
+    width: 50%; /* Take up half of the container */
+    padding-right: 20px; /* Adds spacing between text and image */
+}
+
+.image-content {
+    width: 50%; /* Take up the other half */
+    text-align: right; /* Keep the image aligned to the right */
+}
+
+.skills-icon{
+    width: 60px;
+    height:auto;
+    transition: transform 0.2s ease; /* Smooth transition for transform and background color */
+}
+
+.header-container{
+    display: flex; /* Sets the display mode to flex to enable flexbox properties */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Distribute space between the flex items */
+}
+
+
+.project-icons{
+    width: 30px;
+    position: relative;
+    top:10px;
+    height:auto;
+    transition: transform 0.2s ease; /* Smooth transition for transform and background color */
+}
+
+
+.dropdown-items {
+    max-height: 0; /* Start collapsed */
+    overflow: hidden; /* Keeps content hidden when not expanded */
+    opacity: 0; /* Start fully transparent */
+    transition: opacity 0.3s ease-out, max-height 0.3s ease-out; /* Smooth transitions */
+    transition-property: max-height, opacity; /* Specify what properties to transition */
+    transition-duration: 0.3s; /* Duration of the transition */
+    transition-timing-function: ease-out; /* Transition timing function for smoother effect */
+}
+
+.main-dropdown {
+    cursor: pointer; /* Indicates the element is clickable */
+}
+
+.dropdown-items.visible {
+    max-height: 3000px; /* Adequate max-height for the dropdown items */
+    opacity: 1; /* Make items fully visible */
+}
+
+#mailIcon {
+    cursor: pointer;
+}
+
+.project-items-container {
+    display: flex;
+    justify-content: space-between; /* Distributes space between projects */
+    align-items: center;
+    width: 100%; /* Takes the full width of the parent */
+    margin: 20px 0; /* Spacing from title and button */
+}
